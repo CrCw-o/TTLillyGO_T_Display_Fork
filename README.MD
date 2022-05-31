@@ -7,6 +7,10 @@
 4. Select the corresponding serial port. If you are not sure, please remove all the serial ports, leaving the board in the USB connection state, just select that one
 5. Finally, click upload, the right arrow next to the tick
 
+When you use this library in platformio with an esp platform and you see erros that the library header SPI.h could not be found, then add 
+lib_ldf_mode = deep+
+to your project options
+
 -------------------------
 
 1. 拷贝  **TFT_eSPI**  到  **<C:\Users\你的用户名\Documents\Arduino\libraries>**  目录内
